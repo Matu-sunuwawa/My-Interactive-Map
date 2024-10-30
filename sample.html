@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> world map</title>
+    <link rel="stylesheet" href="sample.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+</head>
+<body onload="main();">
+
+    <div class="container">
+        <object data="Except_World_Map_website_v5d_2020_olmAUXW_HqQ62sE.svg" type="image/svg+xml" id="sinoptic"></object>
+    </div>
+
+    <div class="data_container" id="d_container_desktop">
+        <div class="show_data">
+            <div class="one pbox">
+                <div class="box">
+                    <h3 id="name_desktop">India</h3>
+                    <p>Country Name</p>
+                </div>
+                <div class="box">
+                    <h3 id="Capital_desktop">Dillhi</h3>
+                    <p>Capital</p>
+                </div>
+                <a href="" id="map_desktop">
+                    <div class="box">
+                        <!-- <h3 id="Map">Map</h3> -->
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p>View Map</p>
+                    </div>
+                </a>
+            </div>
+            <div class="arrow">
+                <i class="fa-solid fa-xmark fa-spin" id="close_desktop"></i>
+            </div>
+        </div>
+    </div>
+    <div class="data_container" id="d_container_mobile">
+        <div class="show_data">
+            <div class="one pbox">
+                <div class="box">
+                    <h3 id="name_mobile">India</h3>
+                    <p>Country Name</p>
+                </div>
+            </div>
+            <div class="two pbox">
+                <div class="box">
+                    <h3 id="Capital_mobile">Dillhi</h3>
+                    <p>Capital</p>
+                </div>
+            </div>
+            <div class="three pbox">
+                <a href="" id="map_mobile">
+                    <div class="box">
+                        <!-- <h3 id="Map">Map</h3> -->
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p>View Map</p>
+                    </div>
+                </a>
+            </div>
+            <div class="arrow">
+                <i class="fa-solid fa-xmark fa-spin" id="close_mobile"></i>
+            </div>
+        </div>
+    </div>
+    
+<script src="sample.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+</body>
+</html>
